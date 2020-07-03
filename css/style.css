@@ -281,6 +281,16 @@ body{
     background-color: #a81d4d;
 }
 
+.mailto {
+    color: white;
+    text-decoration: none;
+}
+
+.mailto:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .footer-links{
     color: white;
     padding-left: 20px;
