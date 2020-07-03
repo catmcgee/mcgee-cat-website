@@ -236,12 +236,12 @@ body{
 }
 
 .arrow-3{
-    fill: #ffc331;
+    fill: #14a76c;
 }
 
 /* Start Coding Interview */
 #project{
-    background-color: #ffc331;
+    background-color: #14a76c;
 }
 
 .youtube-p-2{
@@ -257,20 +257,20 @@ body{
 }
 
 .project-h4{
-    color: #ffc331;
+    color: #14a76c;
 }
 
 .project-button{
     background-color: white;
     font-size: 20px;
-    color: #ffc331;
+    color: #14a76c;
     border: none;
     padding: 12px 45px;
     border-radius: 25px;
 }
 
 .project-button:hover{
-    background-color: #ffc331;
+    background-color: #14a76c;
     color: white;
     text-decoration: none;
     border: thin white solid;
