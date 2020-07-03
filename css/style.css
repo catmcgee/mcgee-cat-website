@@ -1,0 +1,327 @@
+html, body{
+    height: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.marg{
+    background: #a81d4d
+
+    ;
+    height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-margin {
+        text-align: center;
+    }
+
+    /* .hero-ph{
+        margin-left: 90px;
+    } */
+
+    .proj-mobile{
+        text-align: center;
+    }
+}
+
+#home{
+    background: #a81d4d
+    ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-photo{
+    width: 100%;
+    height: 480px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 25px;
+}
+
+.hero-photo img {
+    margin-top: -1px;
+    border: none;
+    width: 100%;
+}
+
+.hero-margin{
+    margin-top: 90px;
+}
+
+.introduction{
+    color: white;
+    font-size: 25px;
+}
+
+.introduction::before {
+    display: inline-block;
+    content: "";
+    border-top: 3px solid white;
+    width: 20px;
+    margin-right: 10px;
+	transform: translateY(-6px);
+}
+
+.hero-h1-1{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.hero-h1-2{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.hero-h2{
+    color: white;
+    margin-bottom: 40px;
+}
+
+.hero-button{
+    background-color: white;
+    font-size: 20px;
+    color: #a81d4d;
+    padding: 12px 45px;
+    border-radius: 25px;
+}
+
+.hero-button-blue {
+    background-color: white;
+    font-size: 20px;
+    color: #0fabbc;
+    border: 2px solid white;
+    padding: 12px 45px;
+    border-radius: 25px;
+}
+
+.hero-button:hover{
+    background-color: #a81d4d;
+    color: white;
+    text-decoration: none;
+    border: thin white solid;
+}
+
+.hero-button-blue:hover{
+    background-color: #0fabbc;
+    color: white;
+    text-decoration: none;
+    border: thin white solid;
+}
+.arrow{
+    fill: #a81d4d;
+}
+
+.arrow-blue {
+    fill: #0fabbc;
+}
+
+.arrow-pink {
+    fill: #fe7c8c;
+}
+
+.hero-button-margin{
+    margin-right: 20px;
+}
+
+/* YouTube */
+#youtube{
+    background-color: #0fabbc;
+}
+
+.youtube-photo{
+    width: 100%;
+    height: 322px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.youtube-p-1{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.youtube-p-2{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.youtube-cards{
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.youtube-h3{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.youtube-p-3{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: black;
+    font-weight: normal;
+}
+
+.youtube-link-margin{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.youtube-link{
+    font-size: 16px;
+    color: #0fabbc;
+    text-decoration: none;
+}
+
+.youtube-link:hover{
+    font-size: 16px;
+    color: #0fabbc;
+    text-decoration: none;
+}
+
+.underline-1:hover {
+    text-decoration: underline;
+}
+
+.arrow-2{
+    fill: #F67590;
+}
+
+/* Blog */
+#blog{
+    background-color: #fe7c8c;
+}
+
+.blog-p{
+    color: white;
+    font-size: 25px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.blog-links{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+.blog-button{
+    background-color: white;
+    font-size: 20px;
+    color: #fe7c8c;
+    padding: 12px 45px;
+    border-radius: 25px;
+}
+
+.blog-button:hover{
+    background-color: #fe7c8c;
+    color: white;
+    text-decoration: none;
+    border: thin white solid;
+}
+
+.arrow-3{
+    fill: #ffc331;
+}
+
+/* Start Coding Interview */
+#project{
+    background-color: #ffc331;
+}
+
+.youtube-p-2{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+}
+
+.project-container{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.project-h4{
+    color: #ffc331;
+}
+
+.project-button{
+    background-color: white;
+    font-size: 20px;
+    color: #ffc331;
+    border: none;
+    padding: 12px 45px;
+    border-radius: 25px;
+}
+
+.project-button:hover{
+    background-color: #ffc331;
+    color: white;
+    text-decoration: none;
+    border: thin white solid;
+}
+
+/* Footer */
+#footer{
+    background-color: #a81d4d;
+}
+
+.footer-links{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-links:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.test{
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .footer-links{
+        color: white;
+        padding-left: 5px;
+        padding-right: 5px;
+    }    
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .test{
+        text-align: center;
+    }
+
+    .youtube-p-2{
+        padding-left: 0px;
+    }
+
+    #youtube {
+        text-align: center;
+    }
+
+    .youtube-cards {
+        text-align: left;
+    }
+}
