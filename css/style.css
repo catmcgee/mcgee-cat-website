@@ -216,7 +216,13 @@ body{
 .blog-links{
     color: white;
     font-size: 20px;
+    text-decoration: none;
+}
+
+.blog-links:hover {
     text-decoration: underline;
+    color: white;
+    font-size: 20px;
 }
 
 
